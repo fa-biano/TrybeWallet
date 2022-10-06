@@ -3,10 +3,10 @@ Projeto realizado durante o curso de desenvolvimento web da Trybe no módulo Fro
 
 ## :dizzy: Objetivo:
 Colocar em prática o conhecimento sobre Redux com React realizando o setup da Store, Reducers, Actions, Dispatchers e conectar o Redux aos componentes React.
-<br>
+<br><br>
 A aplicaçao desenvolvida é uma página para controle de despesas em moedas internacionais.
-Ao renderizar a pagina é disparada uma Action Assincrona que faz uma consulta à API de cotações que retorna as moedas disponíveis.
-Quando o botão de Adicionar despesa é clicado é realizado nova consulta à API para ter o valor de cotação da moeda mais atualizado para realizar a conversão.
+Ao renderizar a página é disparada uma Action Assíncrona que faz uma consulta à API de cotações que retorna as moedas disponíveis.
+Quando o botão de Adicionar despesa é clicado é realizado nova consulta à API para ter o valor de cotação da moeda mais atualizado para controle e realização da conversão para Real.
 
 ## :fire: Tecnologias: 
 * Redux com React (Store, Reducer, Actions, Dispatch)
