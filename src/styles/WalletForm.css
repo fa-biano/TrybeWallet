@@ -1,0 +1,44 @@
+.expenses-form {
+  background-color: rgba(225, 229, 235, 0.49);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 40px 90px;
+  width: 90%;
+}
+
+.expenses-form input , .expenses-form select {
+  border-color: rgb(0, 59, 229);
+  border-radius: 5px;
+  color: rgb(0, 59, 229);
+  line-height: 30px;
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+
+.expenses-form input::placeholder {
+  color: rgb(0, 59, 229);
+}
+
+.expenses-form input:focus , .expenses-form select:focus {
+  box-shadow: -4px 2px 13px rgba(0, 59, 229, 0.3);
+}
+
+.expenses-form select option {
+  margin: 10px 0;
+}
+
+.expenses-form button {
+  background-color: rgb(0, 59, 229);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 0 20px;
+  width: 180px;
+}
+
+.expenses-form button:hover {
+  background-color: rgba(0, 59, 229, 0.85);
+  cursor: pointer;
+}

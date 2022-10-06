@@ -1,0 +1,43 @@
+header {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 40px 90px;
+  width: 90%;
+}
+
+.title-logo {
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  width: 200px;
+}
+
+.expenses-container {
+  align-items: center;
+  color: rgb(0, 59, 229);
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.expenses-container p {
+  margin-left: 10px;
+}
+
+.expenses-container span {
+  font-weight: 300;
+  margin-left: 8px;
+}
+
+.user-container {
+  align-items: center;
+  display: flex;
+}
+
+.user-container p {
+  color: rgb(47, 193, 140);
+  margin-left: 10px;
+}

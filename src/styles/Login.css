@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(67, 213, 160);
+  background-image: url('../images/foto-fundo.png');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+.login-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: -4px 9px 13px rgba(3, 107, 82, 0.3);
+  margin: 25vh auto 0;
+  padding: 70px;
+  width: 500px;
+}
+
+.login-title {
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+  margin: auto;
+  width: 65%;
+}
+
+.wallet {
+  color: rgb(47, 193, 140);
+  font-weight: 700;
+}
+
+.trybe {
+  color: rgb(0, 59, 229);
+}
+
+.input-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.input-container input {
+  border-color: rgb(0, 59, 229);
+  border-radius: 5px;
+  color: rgb(0, 59, 229);
+  line-height: 30px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  width: 330px;
+}
+
+.input-container input::placeholder {
+  color: rgb(0, 59, 229);
+}
+
+.input-container input:focus {
+  box-shadow: -4px 2px 13px rgba(0, 59, 229, 0.3);
+}
+
+.input-container button {
+  background-color: rgb(0, 59, 229);
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  height: 40px;
+  width: 330px;
+}
+
+.input-container button:disabled {
+  background-color: darkgray;
+}
+
+.input-container button:hover:enabled {
+  background-color: rgba(0, 59, 229, 0.85);
+  cursor: pointer;
+}
